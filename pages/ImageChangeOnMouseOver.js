@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import ImageToggleOnMouseOver from '../src/ImageToggleOnMouseOver';
+
 
 const ImageChangeOnMouseOver = () => {
     return (
         <div>
-            <img src="/static/bw/Speaker-187.png" alt="speaker 187" height="300px"/>
+            <ImageToggleOnMouseOver primaryImg="/static/bw/Speaker-187.png"
+                    secondaryImg="/static/Speaker-187.png" />
 
-            <img src="/static/bw/Speaker-1124.png" alt="speaker 1124" height="300px"/>
+            <ImageToggleOnMouseOver primaryImg="/static/bw/Speaker-1124.png"
+                    secondaryImg="/static/Speaker-1124.png"/>
 
             <div id="footer" className="row">
                 <div className="col-12">
