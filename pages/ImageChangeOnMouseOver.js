@@ -5,10 +5,10 @@ import ImageToggleOnMouseOver from '../src/ImageToggleOnMouseOver';
 const ImageChangeOnMouseOver = () => {
     return (
         <div>
-            <ImageToggleOnMouseOver primaryImg="/static/bw/Speaker-187.png"
+            <ImageToggleOnMouseOver primaryImg="/static/speakers/bw/Speaker-187.png"
                     secondaryImg="/static/Speaker-187.png" />
 
-            <ImageToggleOnMouseOver primaryImg="/static/bw/Speaker-1124.png"
+            <ImageToggleOnMouseOver primaryImg="/static/speakers/bw/Speaker-1124.png"
                     secondaryImg="/static/Speaker-1124.png"/>
 
             <div id="footer" className="row">
